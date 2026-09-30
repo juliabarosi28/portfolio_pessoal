@@ -1,0 +1,228 @@
+body {
+    background-color: #A5D8FF;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    background-color: #2986D8;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 15px 30px;
+}
+
+li {
+   font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    padding: 8px 40px;
+    border-radius: 12px;
+    background-color: #A5D8FF;
+}
+
+li a:hover {
+    background-color: #ffffff;
+}
+
+#logo {
+    height: 108px;
+    border-radius: 50%;
+}
+
+.principal {
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+}
+
+.imagem-julia {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imagem-julia img {
+    width: 75%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #A5D8FF;
+}
+
+.info {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 5%;
+}
+
+.cardapio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.categoria {
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.categoria h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.categoria p {
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    background-color: #2986D8;
+    padding: 5px;
+}
+
+center h3{
+   font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+}
+
+.teatro {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.teatro img {
+    width: 85%;
+    height: 90%;
+    object-fit: cover;
+}
+
+#foto {
+    border-radius: 3%;
+}
+
+.imagem-frasefinal {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imagem-frasefinal img {
+    width: 85%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 1.8%;
+}
+
+.contato {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.contato img {
+    width: 85%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 1.8%;
+}
+
+.principal_c {
+    background: url("foto_fundo.png") no-repeat center center/cover;
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+}
+
+.flip-card {
+    width: 280px;
+    height: 280px;
+    perspective: 1000px;
+    justify-content: center;
+}
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: 0.7s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #0c3875;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backface-visibility: hidden;
+    padding-top: 0%
+   
+}
+
+.flip-card-back {
+    background: #69beff;
+    transform: rotateY(180deg);
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+    padding-top: 0%;
+}
+.flip-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    background: #0b0e0b;
+}
+#card1b {
+ padding-top:15%;
+ background-color: #69beff;
+ border: 4px solid #0c3875;
+}
+#flip1 {
+    display: flex;
+    margin-left: 400px;
+    
+}
+#flip2 {
+    margin-left: 800px;
+    margin-top: -280px;
+}
